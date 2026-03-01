@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#container {
+  width: 720px;
+  height: 720px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+.square {
+  box-sizing: border-box;
+  border: 1px solid black;
+  flex: 0 0 auto;   /* 🔥 THIS FIXES THE STRAIGHT LINE PROBLEM */
+}
